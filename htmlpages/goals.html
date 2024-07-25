@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            background-size: cover;
+            background-position: center;
+            color: #181817;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(7, 7, 7, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #d1a40e;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            background-color: #bbb9b9;
+            border-radius: 5px;
+        }
+        li input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .goal-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+            overflow: hidden;
+        }
+        .goal-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>My Goals</h1>
+    <ul>
+        <li>
+            <div class="goal-image">
+                <img src="images/goal1.jpeg" alt="Goal Image">
+            </div>
+            <input type="checkbox"><span> Ending the Quraan for 3 times</span>
+        </li>
+        <li>
+            <div class="goal-image">
+                <img src="images/goal2.jpg" alt="Goal Image">
+            </div>
+            <input type="checkbox"><span>Forgive others</span>
+        </li>
+        <li>
+            <div class="goal-image">
+                <img src="images/goal3.jpg" alt="Goal Image">
+            </div>
+            <input type="checkbox"><span>Give Sadaqas Everyday</span>
+        </li>
+        <li>
+            <div class="goal-image">
+                <img src="images/goal5.jpg" alt="Goal Image">
+            </div>
+            <input type="checkbox"><span>Control emotions and tounge</span>
+        </li>
+        <li>
+            <div class="goal-image">
+                <img src="images/goal6.jpg" alt="Goal Image">
+            </div>
+            <input type="checkbox"><span>Memorize new surah</span>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

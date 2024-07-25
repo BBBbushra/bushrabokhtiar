@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;    
+}
+ul{
+list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header start*/
+header{
+
+    height: 100vh;
+    background-color: #0b0b0b;
+    position: relative;
+   
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+
+}
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+
+
+}
+   
+#navbar ul li a{
+
+    padding: 0.5rem 1rem;
+    color: #f0f0f2;
+    font-weight: 600;
+}
+
+#navbar ul li a:hover{
+border-bottom: 2px solid #df981e ;
+
+}
+
+/* header end*/
+.ch3 {
+    background-color: #B6C4B6;
+    margin: 15px 10px;
+    padding: 5px 5px;
+    transition: 1s ease;
+    border-radius: 10px;
+}
+.ch3:hover{
+
+    transform: scale(0.98) ;
+}
+.ch3 .Ab1{
+    font-weight:bold;
+    color:#f6ab14;
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;    
+    padding-top: 15px ;
+    padding-bottom: 20px ;
+    font-size: 1.8em;
+    background: linear-gradient(to right, #ffe79d,#656567,#0e0e0e,#121212,#1e1f1f,#9291a1,#656567, #eac452);
+
+}
+.ch3 .Ab2{
+    color: #32304d;
+    padding: 10px 5px 10px 10px;
+    font-size: 1.2em;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: Bahnschrift Condensed;
+}
